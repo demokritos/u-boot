@@ -213,6 +213,7 @@ int board_early_init_f(void);
 /* manipulate the U-Boot fdt before its relocation */
 int board_fix_fdt(void *rw_fdt_blob);
 int board_late_init(void);
+int check_force_enter_ums_mode(void);
 int board_postclk_init(void); /* after clocks/timebase, before env/serial */
 int board_early_init_r(void);
 
